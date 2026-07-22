@@ -1,0 +1,15 @@
+# This repository is PUBLIC.
+#
+# It exists for ONE reason: Buffer fetches post images from a public URL at
+# posting time, so finished cards must be reachable on the open internet.
+#
+# Only rendered card images belong here. Nothing sourced from a coaching call,
+# no transcripts, no notes, no drafts, no client material of any kind.
+# The denylist below blocks everything by default and re-admits PNGs only.
+
+*
+!.gitignore
+!README.md
+!cards/
+!cards/**/
+!cards/**/*.png
